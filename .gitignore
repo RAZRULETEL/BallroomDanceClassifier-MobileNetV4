@@ -1,0 +1,5 @@
+data/*/*.json
+binary
+sources/*.mp3
+sources/*/*.mp3
+*/desktop.ini
