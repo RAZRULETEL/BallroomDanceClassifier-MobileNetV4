@@ -10,7 +10,7 @@ import torch
 import torch.nn as nn
 import math
 
-__all__ = ['mobilenetv4_conv_small', 'mobilenetv4_conv_medium', 'mobilenetv4_conv_large',
+__all__ = ['mobilenetv4_conv_small', 'mobilenetv4_conv_medium', 'mobilenetv4_conv_large', 'mobilenetv4_conv_small_grayscale'
            # 'mobilenetv4_hybrid_medium', 'mobilenetv4_hybrid_large'
            ]
 

@@ -63,6 +63,13 @@ It was trained with next parameters:
   + 10 on 200 songs without augmentation
   + 7 on 400 songs with augmentation
 
+## Convert to Tensorflow.js
+1. Install dependencies: `pip install nobuco tensorflowjs`
+1. Specify path to torch model `.pth` file in `torch_to_keras.py`
+1. Run: `python convert/torch_to_keras.py`
+1. Run: `python convert/keras_to_TF-JS.py`
+1. Now you got Tf.js model in `convert/mobilenetv4_tfjs`
+
 ## Note 
 I am not an ML engineer—this code was written with enthusiasm and may contain bad practices or code quality issues. However, I’m striving to make these complex tasks work effectively.
 
